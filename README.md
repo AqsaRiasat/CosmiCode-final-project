@@ -38,7 +38,7 @@ CosmiCode-final-project/
 Setup & Installation:
 
 1. Clone the repository 
-git clone https://github.com/your-username/CosmiCode-final-project.git
+git clone https://github.com/AqsaRiasat/CosmiCode-final-project.git
 
 2. Navigate to the project folder
 cd CosmiCode-final-project

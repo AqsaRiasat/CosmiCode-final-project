@@ -1,0 +1,183 @@
+/* Import Montserrat font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+/*Reset all margins, paddings, and set box-sizing for consistent sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Body background with pastel gradient and center-aligned quiz */
+body {
+    background: linear-gradient(135deg, #cdb4db, #ffc8dd, #ffafcc, #bde0fe, #a2d2ff);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align top */
+    min-height: 100vh;
+    padding: 10px;
+}
+
+/* Container styling for quiz box with blur and shadow */
+.quiz-container {
+    background: rgba(255, 255, 255, 0.25);
+    padding: 2rem;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 500px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    animation: fadeIn 0.5s ease;
+    max-height: 90vh;     /* Set max height */
+    overflow-y: auto;     /* Enable vertical scroll */
+}
+
+/* Progress bar background */
+.progress-container {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 50px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    height: 10px;
+}
+
+/* Progress bar fill */
+.progress-bar {
+    height: 10px;
+    width: 0;
+    background: linear-gradient(135deg, #cdb4db, #a2d2ff);
+    transition: width 0.3s ease;
+}
+
+/* Fade-in animation for quiz container */
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(20px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+/* Quiz header spacing */
+.quiz-header {
+    margin-bottom: 1.5rem;
+}
+
+/* Main title style */
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #5e548e;
+}
+
+/* Question text styling */
+p#question {
+    color: #3a3a3a;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Remove default list styling for answers */
+ul {
+    list-style: none;
+    text-align: left;
+}
+
+/* Spacing between each answer option */
+ul li {
+    margin: 0.8rem 0;
+}
+
+/* Style radio buttons */
+input[type="radio"] {
+    accent-color: #a2d2ff;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* Style labels for answers */
+label {
+    cursor: pointer;
+    padding: 0.6rem;
+    display: block;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    color: #4a4a4a;
+}
+
+/* Hover effect on labels */
+label:hover {
+    background: rgba(255, 255, 255, 0.6);
+    transform: scale(1.02);
+}
+
+/* Correct answer highlight with bounce animation */
+.correct {
+    background: rgba(178, 255, 178, 0.6) !important;
+    animation: bounce 0.5s ease;
+}
+
+/* Wrong answer highlight with shake animation */
+.wrong {
+    background: rgba(255, 182, 193, 0.6) !important;
+    animation: shake 0.4s ease;
+}
+
+/* Bounce keyframe for correct answer */
+@keyframes bounce {
+    0%, 100% {transform: scale(1);}
+    50% {transform: scale(1.1);}
+}
+
+/* Shake keyframe for wrong answer */
+@keyframes shake {
+    0%, 100% {transform: translateX(0);}
+    25% {transform: translateX(-5px);}
+    75% {transform: translateX(5px);}
+}
+
+/* Submit button styling */
+button {
+    background: linear-gradient(135deg, #cdb4db, #a2d2ff);
+    color: #333;
+    border: none;
+    padding: 0.8rem 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: transform 0.2s;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Button hover scale effect */
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Score text style */
+#score {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #5e548e;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+    .quiz-container {
+        padding: 1.2rem;
+        max-height: none; /* Remove max height on mobile */
+    }
+    h1 {
+        font-size: 1.4rem;
+    }
+    p#question {
+        font-size: 0.95rem;
+    }
+    label {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
+} 

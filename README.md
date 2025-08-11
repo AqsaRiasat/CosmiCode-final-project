@@ -1,76 +1,73 @@
-# Quiz App
+Quiz App
+An interactive, responsive, and visually appealing web-based quiz application with a pastel gradient theme.
+Built using HTML, CSS, and JavaScript for the Cosmicode Internship (Final Project Week 7-8).
 
-A modern, responsive quiz application with a pastel gradient theme.  
-Built as the **Final Project** for the **Cosmicode Internship** (Weeks 7–8).
 
----
+Features:
+🎨 Modern Pastel Gradient UI with smooth animations
 
-##  Project Description
-The **Quiz App** is an interactive web-based quiz that tests a user's knowledge through multiple-choice questions.  
-It features a **smooth pastel gradient design**, responsive layout, animated transitions, and progress tracking.  
-Users can see their score instantly after completion and restart the quiz anytime.
+📱 Fully Responsive for mobile, tablet, and desktop
 
-**Key Highlights:**
-- Fully responsive design for mobile, tablet, and desktop
-- Progress bar indicating quiz completion status
-- Correct/Wrong answer highlight with animations
-- Pastel gradient background for a soft, modern look
-- Lightweight and easy to customize
+📊 Progress Bar to track quiz completion
 
----
+✅ Correct/Wrong Answer Highlighting with animations
 
-##  Technologies Used
-- **HTML5** – Markup for structure
-- **CSS3** – Styling, gradients, and animations
-- **JavaScript (Vanilla)** – Quiz logic and interactivity
-- **Google Fonts (Montserrat)** – Typography
+📈 Score Calculation at the end
 
----
+🔄 Restart Option to replay the quiz.
 
-##  Folder Structure
+
+Technologies Used:
+HTML5 – Structure
+
+CSS3 – Styling & animations
+
+JavaScript (Vanilla) – Logic & interactivity.
+
+
+Project Structure:
 CosmiCode-final-project/
 │
-├── index.html
-├── style.css
-├── script.js
-├── README.md
-│
-└── screenshots/
-    ├── start quiz.jpeg
-    ├── questions.jpeg
-    └── Result.jpeg
+├── index.html        # Main HTML file
+├── style.css         # Styling file
+├── script.js         # JavaScript logic
+├── screenshots/      # Folder for screenshots
+└── README.md         # Documentation
 
 
----
+Setup & Installation:
 
-## ⚙️ Setup Instructions
+1. Clone the repository 
+git clone https://github.com/your-username/CosmiCode-final-project.git
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/AqsaRiasat/CosmiCode-final-project.git
-
-2. Open the Project Folder:
+2. Navigate to the project folder
 cd CosmiCode-final-project
 
-3. Run the App:
-Simply open index.html in any modern browser (Chrome, Edge, Firefox).
+3. Open index.html in your browser
 
-Usage Guide:
-1- Select an answer from the given options.
 
-2- The progress bar will update as you move through the quiz.
+Usage:
+1. Start the quiz by reading the first question
 
-2- At the end, your score will be displayed along with the total number of questions.
+2. Select your answer by clicking the radio button or label
 
-4- Click "play again" to retake the quiz.
+3. Click Submit to move to the next question
 
-Internship Information:
-This project was created as the Final Task for the CosmiCode Internship program, demonstrating skills in HTML, CSS, JavaScript.
+4. At the end, your score will be displayed
 
-Author:
-AqsaRiasat
+5. Click Play Again to restart the quiz
 
-🔗 GitHub: [@AqsaRiasat](https://github.com/AqsaRiasat)
+
+License:
+This project is licensed under the MIT License – you can use, modify, and distribute it freely.
+
+Author: 
+AqsaRiyasat
+
+
+
+
+
 
 
 

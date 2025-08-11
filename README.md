@@ -23,12 +23,12 @@ Users can see their score instantly after completion and restart the quiz anytim
 - **HTML5** – Markup for structure
 - **CSS3** – Styling, gradients, and animations
 - **JavaScript (Vanilla)** – Quiz logic and interactivity
-- **Google Fonts (Poppins)** – Typography
+- **Google Fonts (Montserrat)** – Typography
 
 ---
 
 ##  Folder Structure
-cosmicode-final-project/
+CosmiCode-final-project/
 │
 ├── index.html
 ├── style.css
@@ -70,7 +70,7 @@ This project was created as the Final Task for the CosmiCode Internship program,
 Author:
 AqsaRiasat
 
-GitHub Profile:
-https://github.com/AqsaRiasat
+🔗 GitHub: [@AqsaRiasat](https://github.com/AqsaRiasat)
+
 
 
